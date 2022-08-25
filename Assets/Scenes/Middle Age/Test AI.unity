@@ -5180,6 +5180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
+      propertyPath: AITitle
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
       propertyPath: FollowTag
       value: EmeraldPlayer
       objectReference: {fileID: 0}
@@ -5191,7 +5196,52 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: TabNumber
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarPos.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: CombatTabNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UILayerMask.m_Bits
+      value: 3895
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -8877,6 +8927,36 @@ Transform:
   m_Father: {fileID: 1226408990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 26.757002}
+--- !u!1 &204684546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204684547}
+  m_Layer: 0
+  m_Name: '[SPAWNPOINT]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &204684547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204684546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.09, y: 1.89, z: -22.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &205425886
 GameObject:
   m_ObjectHideFlags: 0
@@ -34624,6 +34704,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3594841392878154752, guid: c11d1066dc09d494d8acd9ca504d4de2,
         type: 3}
+      propertyPath: Damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594841392878154752, guid: c11d1066dc09d494d8acd9ca504d4de2,
+        type: 3}
       propertyPath: ReloadMethod
       value: 0
       objectReference: {fileID: 0}
@@ -41936,6 +42021,7 @@ GameObject:
   - component: {fileID: 1013338316}
   - component: {fileID: 1013338315}
   - component: {fileID: 1013338314}
+  - component: {fileID: 1013338318}
   m_Layer: 0
   m_Name: XR Rig Advanced
   m_TagString: Untagged
@@ -42101,6 +42187,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013338318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013338313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  SpawnOnDeath: {fileID: 204684546}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1013764130
 GameObject:
   m_ObjectHideFlags: 0
