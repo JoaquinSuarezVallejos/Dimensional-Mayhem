@@ -5180,8 +5180,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
+      propertyPath: UITag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AIName
+      value: FallenGuardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
       propertyPath: AITitle
-      value: Fallen Guardian
+      value: FallenGuardian
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5231,7 +5241,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: RefillHealthType
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
