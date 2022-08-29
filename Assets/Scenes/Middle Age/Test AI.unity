@@ -5186,12 +5186,12 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: AIName
-      value: FallenGuardian
+      value: Fallen Guardian
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: AITitle
-      value: FallenGuardian
+      value: Fallen Guardian
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5206,12 +5206,17 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: TabNumber
-      value: 3
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AINamePos.y
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: HealthBarPos.y
-      value: 2.5
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5237,6 +5242,16 @@ PrefabInstance:
         type: 3}
       propertyPath: NameTextColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextFontSize
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
