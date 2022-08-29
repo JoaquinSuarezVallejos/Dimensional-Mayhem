@@ -51,7 +51,8 @@ namespace BNG {
         List<Transform> rightHandModels = default;
         Transform activatedRightModel = default;
 
-        void Start() {
+        void Start() 
+        {
             uiPoint = GetComponentInChildren<UIPointer>();
 
             CacheHandModels();
