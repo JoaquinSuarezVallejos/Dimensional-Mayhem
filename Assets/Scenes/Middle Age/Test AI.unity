@@ -5281,7 +5281,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: MeleeAttacks.Array.data[0].MinDamage
-      value: 25
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -30678,7 +30678,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: MeleeAttacks.Array.data[0].MinDamage
-      value: 25
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -45475,7 +45475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4806bdbb5088723429c8ed1f18bbba97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 100
+  CurrentHealth: 150
   DamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -55658,7 +55658,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: MeleeAttacks.Array.data[0].MinDamage
-      value: 25
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -75420,7 +75420,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: MeleeAttacks.Array.data[0].MinDamage
-      value: 50
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -87702,7 +87702,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: MeleeAttacks.Array.data[0].MinDamage
-      value: 25
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
