@@ -23,8 +23,9 @@ namespace BNG {
         [SerializeField]
         private Transform centerEyeAnchor;
 
-        void Start() {
-            
+        void Start() 
+        {
+
         }
 
         void OnCollisionStay(Collision collision) {
@@ -42,7 +43,8 @@ namespace BNG {
             StartCoroutine(PushBackPlayer());
         }
 
-        void OnCollisionExit(Collision collision) {
+        void OnCollisionExit(Collision collision) 
+        {
             if (OnlyCollideAgainstWorld && !collision.collider.CompareTag(worldTag)) {
                 return;
             }
