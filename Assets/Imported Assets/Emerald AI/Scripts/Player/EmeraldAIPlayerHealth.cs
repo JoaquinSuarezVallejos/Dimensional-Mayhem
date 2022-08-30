@@ -25,6 +25,16 @@ namespace EmeraldAI.Example
             StartingHealth = CurrentHealth;
         }
 
+        public void Update()
+        {
+            if (CurrentHealth <= 0)
+            {
+                //Tiene que morir
+                Destroy(gameObject);
+                Debug.Log("Has Muerto");
+            }
+        }
+
         public void DamagePlayer (int DamageAmount)
         {
             CurrentHealth -= DamageAmount;

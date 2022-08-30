@@ -5206,7 +5206,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5226,7 +5226,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: CombatTabNumber
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5266,7 +5266,7 @@ PrefabInstance:
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
       propertyPath: TemperamentTabNumber
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -5277,6 +5277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: DetectionLayerMask.m_Bits
       value: 2576
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: MeleeAttacks.Array.data[0].MinDamage
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
         type: 3}
@@ -14954,6 +14959,44 @@ Transform:
   m_Father: {fileID: 1667021666}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &356360748 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 737920012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &356360749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356360748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &358142669
 GameObject:
   m_ObjectHideFlags: 0
@@ -15316,6 +15359,44 @@ Transform:
   m_Father: {fileID: 1731945470}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &360714532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1796621426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &360714533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360714532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &360933842
 GameObject:
   m_ObjectHideFlags: 0
@@ -30435,6 +30516,177 @@ MonoBehaviour:
   DoUpdate: 0
   DoLateUpdate: 1
   LookAtTarget: 0
+--- !u!1001 &737920012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Name
+      value: Fallen Guardian (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94408906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.32969064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UITag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AIName
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AITitle
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FollowTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TabNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AINamePos.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarPos.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: CombatTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextFontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UILayerMask.m_Bits
+      value: 3895
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FactionsAndTagTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: DetectionLayerMask.m_Bits
+      value: 2576
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: MeleeAttacks.Array.data[0].MinDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerFaction.Array.data[0].PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
 --- !u!1 &738295717
 GameObject:
   m_ObjectHideFlags: 0
@@ -44858,6 +45110,8 @@ GameObject:
   - component: {fileID: 1058600423}
   - component: {fileID: 1058600422}
   - component: {fileID: 1058600421}
+  - component: {fileID: 1058600433}
+  - component: {fileID: 1058600432}
   m_Layer: 9
   m_Name: PlayerController
   m_TagString: EmeraldPlayer
@@ -45197,6 +45451,38 @@ MonoBehaviour:
   MaxElevation: 5000
   LastPlayerMoveTime: 0
   SphereColliderRadius: 0.08
+--- !u!114 &1058600432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058600419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558af7c811849fe41843742f12f9fd13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1058600433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058600419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4806bdbb5088723429c8ed1f18bbba97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 100
+  DamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  StartingHealth: 0
 --- !u!1 &1059486924
 GameObject:
   m_ObjectHideFlags: 0
@@ -45759,6 +46045,99 @@ Transform:
   m_Father: {fileID: 1160141846}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1068488402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 138368, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_Name
+      value: Emerald 3rd Person Combat Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 138368, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 138368, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138368, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_TagString
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 150526, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 152298, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 197424, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478824, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8983a216923b7a47b16aef772c9574b, type: 3}
 --- !u!1 &1068720411
 GameObject:
   m_ObjectHideFlags: 0
@@ -55117,6 +55496,177 @@ Transform:
   m_Father: {fileID: 553098753}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1286087163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Name
+      value: Fallen Guardian (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94408906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.32969064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UITag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AIName
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AITitle
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FollowTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TabNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AINamePos.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarPos.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: CombatTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextFontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UILayerMask.m_Bits
+      value: 3895
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FactionsAndTagTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: DetectionLayerMask.m_Bits
+      value: 2576
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: MeleeAttacks.Array.data[0].MinDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerFaction.Array.data[0].PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
 --- !u!1 &1286452016
 GameObject:
   m_ObjectHideFlags: 0
@@ -69402,6 +69952,44 @@ Transform:
   m_Father: {fileID: 177537517}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1662390429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2099641094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1662390430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662390429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1663343374
 GameObject:
   m_ObjectHideFlags: 0
@@ -74658,6 +75246,189 @@ CapsuleCollider:
   m_Height: 0.05
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1796621426
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Name
+      value: BOSS
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94408906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.32969064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UITag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AIName
+      value: BOSS
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AITitle
+      value: BOSS
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FollowTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TabNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AINamePos.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarPos.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: CombatTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextFontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UILayerMask.m_Bits
+      value: 3895
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FactionsAndTagTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: DetectionLayerMask.m_Bits
+      value: 2576
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: MeleeAttacks.Array.data[0].MinDamage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerFaction.Array.data[0].PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
 --- !u!1 &1796831499
 GameObject:
   m_ObjectHideFlags: 0
@@ -77032,6 +77803,44 @@ CapsuleCollider:
   m_Height: 0.025
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1863430525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1286087163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863430526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863430525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1864102931
 GameObject:
   m_ObjectHideFlags: 0
@@ -86731,6 +87540,177 @@ Transform:
   m_Father: {fileID: 1117197550}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2099641094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Name
+      value: Fallen Guardian (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493349518984564, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94408906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.32969064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414358226301876, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UITag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AIName
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AITitle
+      value: Fallen Guardian
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FollowTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TabNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: AINamePos.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarPos.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: CombatTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: HealthBarScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: NameTextFontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: UILayerMask.m_Bits
+      value: 3895
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: FactionsAndTagTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: DetectionLayerMask.m_Bits
+      value: 2576
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: MeleeAttacks.Array.data[0].MinDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922020833237454, guid: eade7e7ad332baf469767700cd5b70c6,
+        type: 3}
+      propertyPath: PlayerFaction.Array.data[0].PlayerTag
+      value: EmeraldPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eade7e7ad332baf469767700cd5b70c6, type: 3}
 --- !u!1 &2102034094
 GameObject:
   m_ObjectHideFlags: 0
