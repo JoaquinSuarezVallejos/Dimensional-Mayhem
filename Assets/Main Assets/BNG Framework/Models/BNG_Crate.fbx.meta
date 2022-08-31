@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: 1f61f9023149fdd4f8030b05848fbb9b
 ModelImporter:
+<<<<<<< HEAD
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
@@ -483,6 +484,18 @@ ModelImporter:
   externalObjects: {}
   materials:
     materialImportMode: 1
+=======
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 98792e5f8699f0b4e9b8068c6ee66d47, type: 2}
+  materials:
+    materialImportMode: 2
+>>>>>>> Joaquin
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -520,11 +533,19 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+<<<<<<< HEAD
+=======
+    fileIdsGeneration: 2
+>>>>>>> Joaquin
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+<<<<<<< HEAD
+=======
+    bakeAxisConversion: 0
+>>>>>>> Joaquin
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -534,6 +555,12 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+<<<<<<< HEAD
+=======
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+>>>>>>> Joaquin
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -545,7 +572,11 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
+<<<<<<< HEAD
   importAnimation: 0
+=======
+  importAnimation: 1
+>>>>>>> Joaquin
   humanDescription:
     serializedVersion: 3
     human: []
@@ -566,7 +597,13 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+<<<<<<< HEAD
   avatarSetup: 1
+=======
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+>>>>>>> Joaquin
   additionalBone: 0
   userData: 
   assetBundleName: 
