@@ -4,8 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Imported Assets/BNG Framework/Scenes/Scene Transitioning.unity
+    guid: 9d7c9629abf9c99449e358b0938b47d0
+  - enabled: 0
+    path: Assets/Imported Assets/BNG Framework/Scenes/XR Demo.unity
+    guid: a1360534006d3f845bc79b46b93cfec5
+  - enabled: 1
+    path: Assets/Scenes/Middle Age/Test AI.unity
+    guid: 42e2668d6ac2f2c429cf842b3ec1a187
+  - enabled: 1
+    path: Assets/Scenes/Middle Age/Death.unity
+    guid: 2fd2c2fec930773489abd81afc4163d7
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d0f04766e2492744fb7f391ac23b8655,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b6631a3724096094c8e93916f9ceb288,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 341fec07e77ddeb4e914bc045bc0e537,

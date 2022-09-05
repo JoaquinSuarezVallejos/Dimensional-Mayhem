@@ -531,7 +531,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: EMERALD_AI_PRESENT
+    1: EMERALD_AI_PRESENT;XRIT_INTEGRATION
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

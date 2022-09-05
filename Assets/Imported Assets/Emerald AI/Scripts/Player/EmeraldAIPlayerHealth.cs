@@ -20,19 +20,11 @@ namespace EmeraldAI.Example
         [HideInInspector]
         public int StartingHealth;
 
+        public bool isDead;
+
         private void Start()
         {
             StartingHealth = CurrentHealth;
-        }
-
-        public void Update()
-        {
-            if (CurrentHealth <= 0)
-            {
-                //Tiene que morir
-                Destroy(gameObject);
-                Debug.Log("Has Muerto");
-            }
         }
 
         public void DamagePlayer (int DamageAmount)
@@ -48,6 +40,8 @@ namespace EmeraldAI.Example
             if (CurrentHealth <= 0)
             {
                 PlayerDeath();
+                Debug.Log("Moriste");
+                isDead = true;
             }
         }
 

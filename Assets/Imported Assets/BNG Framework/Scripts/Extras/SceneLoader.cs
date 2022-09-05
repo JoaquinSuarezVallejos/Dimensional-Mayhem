@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using EmeraldAI.Example;
 
 namespace BNG {
     public class SceneLoader : MonoBehaviour {
@@ -19,6 +20,21 @@ namespace BNG {
 
         private string _loadSceneName = string.Empty;
 
+        [SerializeField] EmeraldAIPlayerHealth PlayerHealth;
+
+        GameObject Player;
+
+        public void Start()
+        {
+            Player = GameObject.Find("PlayerController");
+            PlayerHealth = Player.GetComponent<EmeraldAIPlayerHealth>();
+        }
+
+        public void Update()
+        {
+            //CUANDO SE MUERA EL PLAYER, EJECUTAR EL CODIGO SceneManager.LoadScene(_loadSceneName, loadSceneMode); Y QUIZAS ALGO MÁS.
+        }
+
         public void LoadScene(string SceneName) {
 
             _loadSceneName = SceneName;
@@ -27,7 +43,10 @@ namespace BNG {
                 StartCoroutine("FadeThenLoadScene");
             }
             else {
-                SceneManager.LoadScene(_loadSceneName, loadSceneMode);
+                if (PlayerHealth.isDead)
+                {
+                    SceneManager.LoadScene(_loadSceneName, loadSceneMode);
+                }
             }
         }
 
@@ -46,8 +65,10 @@ namespace BNG {
             if(ScreenFadeTime > 0) {
                 yield return new WaitForSeconds(ScreenFadeTime);
             }
-
-            SceneManager.LoadScene(_loadSceneName, loadSceneMode);
+            if (PlayerHealth.isDead)
+            {
+                SceneManager.LoadScene(_loadSceneName, loadSceneMode);
+            }
         }
     }
 }
