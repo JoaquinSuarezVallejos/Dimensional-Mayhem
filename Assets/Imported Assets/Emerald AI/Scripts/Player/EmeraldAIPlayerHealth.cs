@@ -23,9 +23,15 @@ namespace EmeraldAI.Example
 
         public bool isDead;
 
+        MySceneLoader Loader;
+
+        GameObject Player;
+
         private void Start()
         {
             StartingHealth = CurrentHealth;
+            Player = GameObject.Find("PlayerController");
+            Loader = Player.GetComponent<MySceneLoader>();
         }
 
         public void DamagePlayer (int DamageAmount)
@@ -49,6 +55,7 @@ namespace EmeraldAI.Example
             DeathEvent.Invoke();
             Debug.Log("Moriste");
             isDead = true;
+            Loader.LoadScene(Loader._loadSceneName);
         }
     }
 }
