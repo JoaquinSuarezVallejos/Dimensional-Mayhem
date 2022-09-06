@@ -6,7 +6,7 @@ using EmeraldAI.Example;
 
 namespace BNG
 {
-    public class SceneLoader : MonoBehaviour
+    public class MySceneLoader : MonoBehaviour
     {
 
         [Tooltip("The Unity 'LoadSceneMode' method of loading the scene (In most cases should be 'Single'). ")]

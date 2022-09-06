@@ -806,8 +806,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 15975214172415926}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LoadScene
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: set_name
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -901,7 +901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadSceneMode: 0
   UseSceenFader: 1
-  ScreenFadeTime: 6.83
+  ScreenFadeTime: 5.5
+  PlayerHealth: {fileID: 0}
+  hasOcurred: 0
 --- !u!222 &864132182291869864
 CanvasRenderer:
   m_ObjectHideFlags: 0

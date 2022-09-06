@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using EmeraldAI.CharacterController;
+using BNG;
 
 namespace EmeraldAI.Example
 {
@@ -40,14 +41,14 @@ namespace EmeraldAI.Example
             if (CurrentHealth <= 0)
             {
                 PlayerDeath();
-                Debug.Log("Moriste");
-                isDead = true;
             }
         }
 
         public void PlayerDeath ()
         {
             DeathEvent.Invoke();
+            Debug.Log("Moriste");
+            isDead = true;
         }
     }
 }
