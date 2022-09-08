@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HitFXPrefab: {fileID: 0}
-  Damage: 50
+  Damage: 20
   AddRigidForce: 5
   ValidLayers:
     serializedVersion: 2
