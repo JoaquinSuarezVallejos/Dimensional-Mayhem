@@ -55,7 +55,6 @@ namespace EmeraldAI.Example
             DeathEvent.Invoke();
             Debug.Log("Moriste");
             isDead = true;
-            Loader.LoadScene(Loader._loadSceneName);
         }
     }
 }
