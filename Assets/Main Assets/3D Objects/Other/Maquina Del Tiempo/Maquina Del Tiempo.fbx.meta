@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 17f0a9694c94a2c4d889cb170a2ca133
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cobre
+    second: {fileID: 2100000, guid: feb0da939a2ffc54ebdaa21848b2bcc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material de botones
+    second: {fileID: 2100000, guid: 0ab37e627d21dfe45b9cf6f3c8b83d6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material de botones.001
+    second: {fileID: 2100000, guid: dec44be02eabc08428c374a2127a013f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7c507537e83385841b6108a32bbcb1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: a7faded3522a63047b3abc49cc815288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: a43d059830a19ef4fb2f5290c46e4a01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 1c1185e1e4c53664d957266784878a17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 90233c87502b492429f852bbf4250f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boton delete
+    second: {fileID: 2100000, guid: cfee4c2a745c2bd4e8d3d198d8625dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boton delete 2
+    second: {fileID: 2100000, guid: 2ac0aa19255dd404da154f8eede13ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable 1
+    second: {fileID: 2100000, guid: d9ac7b78e77de8444ab40d5d56efe551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable 2
+    second: {fileID: 2100000, guid: 910acc1ce8beb184b8e16839687a6809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luces de abajo
+    second: {fileID: 2100000, guid: aeadcd61430451041bf6e454ac6c3002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1.001
+    second: {fileID: 2100000, guid: 5d64493fa8094de49bdec7427b5ca54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1.003
+    second: {fileID: 2100000, guid: 1ef58b950c3b32b40858c3e890ae927f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1.004
+    second: {fileID: 2100000, guid: c636034253f95504cb8c93ab07d391ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 2.001
+    second: {fileID: 2100000, guid: 7df949e77e07cc646a0d6fe42108684f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 2.003
+    second: {fileID: 2100000, guid: 9d8ff90c17c1845458e14813ebe00141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 2.004
+    second: {fileID: 2100000, guid: 1c8a997c7c4828c48a597f0f9c555b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 3.001
+    second: {fileID: 2100000, guid: b608108f715232448a8dc3d0a42b7795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 3.003
+    second: {fileID: 2100000, guid: b0c2c75c391d73b4b982cad5756f12c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 3.004
+    second: {fileID: 2100000, guid: adf51983dcbe097449755608d5993732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 4
+    second: {fileID: 2100000, guid: 93c95371889b99c4a936b850670d2b72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 5
+    second: {fileID: 2100000, guid: a386dcdf6428b8149aabe7e91b0c176e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 6
+    second: {fileID: 2100000, guid: 341bd27ddcd83904b9e57e905b5c6b52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 7
+    second: {fileID: 2100000, guid: e8de75071e1366345a1e53e20c421c01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 7.001
+    second: {fileID: 2100000, guid: c49ed36d63037e04ea579a650c85d6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 9
+    second: {fileID: 2100000, guid: ed6cda8ca3c157a4eb4fc5663ef645ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de pantalla
+    second: {fileID: 2100000, guid: 0da9718441d185440ac5fa8ba9de933b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos
+    second: {fileID: 2100000, guid: 4a4e8ad0d744aa94fb2c41da89283ba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.002
+    second: {fileID: 2100000, guid: 1d9ba6027a8967249b8d19a8832eb1c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.003
+    second: {fileID: 2100000, guid: 9d883d69c4ca61c4ab01571310e1286f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.006
+    second: {fileID: 2100000, guid: 4ecbb4c876a29b84b91320cc4c7087e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.007
+    second: {fileID: 2100000, guid: 86f0b73fdb92e1842ab8d984063b7f29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.008
+    second: {fileID: 2100000, guid: 135ef95e6168630488da095d7cd3e608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.009
+    second: {fileID: 2100000, guid: da390782397fdda4b8da73b8a6e6c09c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.010
+    second: {fileID: 2100000, guid: 17dbcfb3dce8fd9458564ceea19eb6e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.011
+    second: {fileID: 2100000, guid: 2b08d8da1f2c6bd478dbefc6e3d3ae66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.013
+    second: {fileID: 2100000, guid: f44421290f1daec4fb63a2760a339350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.014
+    second: {fileID: 2100000, guid: 8221208cf81ccb447963060c30cc0fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.015
+    second: {fileID: 2100000, guid: a275637e1bf6ee54f8b5405dc5a7cfbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.016
+    second: {fileID: 2100000, guid: 6bc353b771c9c1142be490359b9f3474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.018
+    second: {fileID: 2100000, guid: c18a982d25b39ba41ae9266e991620fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.024
+    second: {fileID: 2100000, guid: 2872c6a575e0b01498b951872b486062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.025
+    second: {fileID: 2100000, guid: 77456c521c4c902439817d92339f336a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.026
+    second: {fileID: 2100000, guid: d0acbe4d0362b3c44a9d621f05f0a297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.027
+    second: {fileID: 2100000, guid: e93e9dcde2648744b987d53f5e77c315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.028
+    second: {fileID: 2100000, guid: 25c40ef57af8f124797a56a3859e9645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.029
+    second: {fileID: 2100000, guid: 0903a6b2a8868564a9d3e62f8b24d580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.030
+    second: {fileID: 2100000, guid: 164a9898341b494429edb2f989b5f78e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.032
+    second: {fileID: 2100000, guid: b5121c44efdc0ac4fb845d700cc0ba65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.033
+    second: {fileID: 2100000, guid: 896f20f9542b969469a7dc593924b3bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.037
+    second: {fileID: 2100000, guid: 0d64ad3efaf4ba540bb5829e751ceee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal de tornillos.041
+    second: {fileID: 2100000, guid: bb9ec0ea21772f641b9c28ec72668add, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal del numeral
+    second: {fileID: 2100000, guid: 83222cdab254dd24dbbdf28afddec729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidrio de pantalla
+    second: {fileID: 2100000, guid: 45746392a8a48cf46b34d2846ca4ef80, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
