@@ -6,35 +6,49 @@ using UnityEngine.UI;
 
 public class SceneFader : MonoBehaviour
 {
-    public Image Fader;
-    bool HasOcurred = false;
-    EmeraldAIPlayerHealth Health;
+    public float fadeDuration = 2;
+    public Color fadeColor;
+    Renderer rend;
     GameObject Player;
+    EmeraldAIPlayerHealth Health;
 
-    // Start is called before the first frame update
+    //Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("PlayerController");
         Health = Player.GetComponent<EmeraldAIPlayerHealth>();
-        Fader.canvasRenderer.SetAlpha(0);
-        Fader.CrossFadeAlpha(1.0f, 4.0f, false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (!HasOcurred && Health.isDead)
-        {
-            FadeOut();
-        }
+        rend = GetComponent<Renderer>();
+        FadeOut();
     }
 
     public void FadeOut()
     {
+        Fade(0, 1);
+    }
+
+    public void Fade(float alphaIn, float alphaOut)
+    {
         Debug.Log("Fading");
-        //Cuando muere, se ejecuta. Hace que en 5 segundos fadee a negro todo. Luego veo como pasarlo de escena.
-        Fader.canvasRenderer.SetAlpha(0);
-        Fader.CrossFadeAlpha(1.0f, 4.0f, false);
-        HasOcurred = true;
+        StartCoroutine(FadeRoutine(alphaIn, alphaOut));
+    }
+
+    public IEnumerator FadeRoutine(float alphaIn, float alphaOut)
+    {
+        float timer = 0;
+        while (timer <= fadeDuration)
+        {
+            Color newColor = fadeColor;
+            newColor.a = Mathf.Lerp(alphaIn, alphaOut, timer / fadeDuration);
+
+            rend.material.SetColor("_BaseColor", newColor);
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        Color new_Color = fadeColor;
+        new_Color.a = alphaOut;
+
+        rend.material.SetColor("_BaseColor", new_Color);
     }
 }
