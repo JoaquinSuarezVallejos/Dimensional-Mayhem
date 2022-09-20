@@ -75203,7 +75203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4dce5c538926434b91d5e1dae1f4920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 5
+  fadeDuration: 2
   fadeColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1816773664
 GameObject:
