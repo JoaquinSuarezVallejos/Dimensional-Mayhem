@@ -3,14 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneFader : MonoBehaviour
 {
-    public float fadeDuration = 2;
+    public float fadeDuration;
     public Color fadeColor;
     Renderer rend;
     GameObject Player;
     EmeraldAIPlayerHealth Health;
+    bool hasOcurred = false;
 
     //Start is called before the first frame update
     void Start()
@@ -18,22 +20,33 @@ public class SceneFader : MonoBehaviour
         Player = GameObject.Find("PlayerController");
         Health = Player.GetComponent<EmeraldAIPlayerHealth>();
         rend = GetComponent<Renderer>();
-        FadeOut();
+        rend.enabled = false;
+    }
+
+    private void Update()
+    {
+        if (Health.isDead && !hasOcurred)
+        {
+            FadeOut();
+        }
     }
 
     public void FadeOut()
     {
         Fade(0, 1);
+        rend.enabled = true;
     }
 
     public void Fade(float alphaIn, float alphaOut)
     {
+        rend.enabled = true;
         Debug.Log("Fading");
         StartCoroutine(FadeRoutine(alphaIn, alphaOut));
     }
 
     public IEnumerator FadeRoutine(float alphaIn, float alphaOut)
     {
+        rend.enabled = true;
         float timer = 0;
         while (timer <= fadeDuration)
         {
@@ -50,5 +63,8 @@ public class SceneFader : MonoBehaviour
         new_Color.a = alphaOut;
 
         rend.material.SetColor("_BaseColor", new_Color);
+
+        Debug.Log("Finished");
+        SceneManager.LoadScene("Death");
     }
 }
