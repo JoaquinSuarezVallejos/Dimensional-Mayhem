@@ -6,19 +6,19 @@ using UnityEngine;
 public class DeactivateMovement : MonoBehaviour
 {
     InputBridge PlayerMovement;
-    GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
-        Player = GameObject.Find("XR Rig Advanced");
-        PlayerMovement = Player.GetComponent<InputBridge>();
-        PlayerMovement.enabled = false; 
+        PlayerMovement = GameObject.Find("XR Rig Advanced").GetComponent<InputBridge>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (PlayerMovement.enabled)
+        {
+            PlayerMovement.enabled = false;
+        }
     }
 }
