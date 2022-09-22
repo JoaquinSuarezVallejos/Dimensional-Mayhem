@@ -25041,12 +25041,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 687314380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b6475f5812b7c740b6b82e4b0f347cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d666b54535112042ae91a890ae92c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadSceneMode: 0
-  UseSceenFader: 1
-  ScreenFadeTime: 5.5
+  fadeDuration: 3
+  fadeColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &687314383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25122,15 +25121,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 687314382}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LoadScene
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: set_name
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: XR Demo
+          m_StringArgument: Main menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &687314385
@@ -81977,7 +81976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FadeOnSceneLoaded: 1
   FadeColor: {r: 0, g: 0, b: 0, a: 0.9882353}
-  FadeInSpeed: 2
+  FadeInSpeed: 5
   FadeOutSpeed: 1
   SceneFadeInDelay: 0.5
 --- !u!54 &2145285054

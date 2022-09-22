@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Middle Age/Death.unity
     guid: 2fd2c2fec930773489abd81afc4163d7
+  - enabled: 1
+    path: Assets/Scenes/Middle Age/Main menu.unity
+    guid: ead9552a0a5f6574d8486e2ac225dca8
   - enabled: 0
     path: Assets/Scenes/Middle Age/World1_Level1.unity
     guid: 825a23e59535ab54089605e151e49624
