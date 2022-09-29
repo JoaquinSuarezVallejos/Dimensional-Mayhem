@@ -13,6 +13,7 @@ public class SceneFader : MonoBehaviour
     GameObject Player;
     EmeraldAIPlayerHealth Health;
     bool hasOcurred = false;
+    string sceneName = string.Empty;
 
     //Start is called before the first frame update
     void Start()
@@ -23,18 +24,14 @@ public class SceneFader : MonoBehaviour
         rend.enabled = false;
     }
 
-    private void Update()
+    public void FadeOut(string name)
     {
-        if (Health.isDead && !hasOcurred)
+        sceneName = name;
+        if (!hasOcurred)
         {
-            FadeOut();
+            Fade(0, 1);
+            rend.enabled = true;
         }
-    }
-
-    public void FadeOut()
-    {
-        Fade(0, 1);
-        rend.enabled = true;
     }
 
     public void Fade(float alphaIn, float alphaOut)
@@ -65,6 +62,6 @@ public class SceneFader : MonoBehaviour
         rend.material.SetColor("_BaseColor", new_Color);
 
         Debug.Log("Finished");
-        SceneManager.LoadScene("Death");
+        SceneManager.LoadScene(sceneName);
     }
 }
