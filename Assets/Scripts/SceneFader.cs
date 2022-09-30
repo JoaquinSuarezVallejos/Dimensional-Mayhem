@@ -31,6 +31,7 @@ public class SceneFader : MonoBehaviour
         {
             Fade(0, 1);
             rend.enabled = true;
+            hasOcurred = true;
         }
     }
 
