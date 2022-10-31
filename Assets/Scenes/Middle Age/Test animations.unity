@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4489,6 +4489,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: Attack1AnimationSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -19186,6 +19206,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -39634,6 +39669,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_Name
@@ -42502,6 +42552,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -53223,6 +53288,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_Name
@@ -57876,6 +57956,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_Name
@@ -60825,7 +60920,7 @@ Transform:
   - {fileID: 417409784}
   - {fileID: 666082763}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451554613
 GameObject:
@@ -62787,6 +62882,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: Attack1AnimationSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -67740,7 +67855,7 @@ Transform:
   - {fileID: 257440630}
   - {fileID: 967429734}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634701922
 GameObject:
@@ -88323,12 +88438,27 @@ PrefabInstance:
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.98
+      value: 2.9800003
       objectReference: {fileID: 0}
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -88348,17 +88478,17 @@ PrefabInstance:
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 536717261136120916, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -88374,6 +88504,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TabNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AnimationListsChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: AttackAnimationList.Array.data[0].AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434094, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
