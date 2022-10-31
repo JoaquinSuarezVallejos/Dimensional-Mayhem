@@ -1,3 +1,4 @@
+using BNG;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,17 +6,18 @@ using UnityEngine.UI;
 
 public class Introduction : MonoBehaviour
 {
-    [SerializeField] string[] introduction;
+    public string[] introduction;
     [SerializeField] Text text;
-    int index = 0;
+    public int index = 0;
     public bool hasFinished = false;
+    InputBridge PlayerMovement;
 
     // Start is called before the first frame update
     void Start()
     {
         gameObject.SetActive(true);
         text.text = introduction[0];
-        gameObject.SetActive(true);
+        PlayerMovement = GameObject.Find("XR Rig Advanced").GetComponent<InputBridge>();
     }
 
     // Update is called once per frame
@@ -23,12 +25,15 @@ public class Introduction : MonoBehaviour
     {
         if (index == introduction.Length)
         {
+            PlayerMovement.enabled = true;
             gameObject.SetActive(false);
             text.text = null; // or string.Empty if null doesn't work.
+            hasFinished = true;
         }
         if (index < introduction.Length)
         {
             text.text = introduction[index];
+            PlayerMovement.enabled = false;
         }
     }
 
