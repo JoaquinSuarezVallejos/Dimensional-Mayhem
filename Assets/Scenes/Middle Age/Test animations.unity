@@ -4493,7 +4493,17 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -19210,12 +19220,27 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: AnimationListsChanged
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: Attack1AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -39672,7 +39697,17 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -42560,6 +42595,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
       propertyPath: AnimationListsChanged
       value: 0
       objectReference: {fileID: 0}
@@ -43816,7 +43861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4806bdbb5088723429c8ed1f18bbba97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 1000000
+  CurrentHealth: 1000
   DamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -53296,7 +53341,17 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -57964,12 +58019,27 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: TemperamentTabNumber
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: AnimationListsChanged
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: Attack1AnimationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -62891,7 +62961,7 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TabNumber
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -62906,7 +62976,7 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: CombatTabNumber
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -62921,7 +62991,7 @@ PrefabInstance:
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
       propertyPath: TemperamentTabNumber
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
@@ -64439,6 +64509,44 @@ Transform:
   m_Father: {fileID: 1831407386}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1542798745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2084376300362021159, guid: 151da6d4958635c4d8b151ae65d409b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4079940852956384001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1542798757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542798745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 20
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1546938776
 GameObject:
   m_ObjectHideFlags: 0
@@ -88547,6 +88655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2084376300362021166, guid: 151da6d4958635c4d8b151ae65d409b7,
         type: 3}
+      propertyPath: HealthRegRate
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084376300362021166, guid: 151da6d4958635c4d8b151ae65d409b7,
+        type: 3}
       propertyPath: AttackDistance
       value: 25
       objectReference: {fileID: 0}
@@ -88559,6 +88672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: CombatTabNumber
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084376300362021166, guid: 151da6d4958635c4d8b151ae65d409b7,
+        type: 3}
+      propertyPath: RefillHealthType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2084376300362021166, guid: 151da6d4958635c4d8b151ae65d409b7,
         type: 3}
@@ -88653,6 +88771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: TabNumber
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
+        type: 3}
+      propertyPath: StartingHealth
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 880767284533434085, guid: 7a467cf05832b1549824af1568daa041,
         type: 3}
