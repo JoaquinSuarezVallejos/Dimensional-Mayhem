@@ -84509,7 +84509,7 @@ PrefabInstance:
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
@@ -84524,7 +84524,7 @@ PrefabInstance:
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
       propertyPath: CombatTabNumber
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
@@ -84579,7 +84579,7 @@ PrefabInstance:
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
       propertyPath: TemperamentTabNumber
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114511965839312276, guid: 39e1cb563aad14646b5c9ebf91b8284c,
         type: 3}
