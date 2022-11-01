@@ -802,13 +802,13 @@ MonoBehaviour:
   ObstructionDetectionUpdateSeconds: 0.1
   ObstructionDetectionUpdateTimer: 0
   CurrentHealth: 0
-  StartingHealth: 30
+  StartingHealth: 50
   DetectionRadius: 18
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 7
   TabNumber: 1
-  TemperamentTabNumber: 2
+  TemperamentTabNumber: 0
   DetectionTagsTabNumber: 2
   AnimationTabNumber: 2
   SoundTabNumber: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
   CautiousSeconds: 8
   DeactivateDelay: 5
   SecondsToDisable: 6
-  HealthRegRate: 1
+  HealthRegRate: 5
   RegenerateAmount: 1
   RegenerateTimer: 0
   AILevel: 1
