@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 02af3baa7b9b95743b17093e5aef9dd1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chin
+    100002: DownMouth
+    100004: Hat
+    100006: Head
+    100008: Hips
+    100010: LeftArm
+    100012: LeftCalf
+    100014: LeftCheeck
+    100016: LeftEar1
+    100018: LeftEar2
+    100020: LeftEye
+    100022: LeftFoot
+    100024: LeftHand
+    100026: LeftIndex1
+    100028: LeftIndex2
+    100030: LeftIndex3
+    100032: LeftLeg
+    100034: LeftLowerEyeLid
+    100036: LeftMiddle1
+    100038: LeftMiddle2
+    100040: LeftMiddle3
+    100042: LeftMouth
+    100044: LeftPinky1
+    100046: LeftPinky2
+    100048: LeftPinky3
+    100050: LeftShoulder
+    100052: LeftThumb1
+    100054: LeftThumb2
+    100056: LeftThumb3
+    100058: LeftToes
+    100060: LeftUpperArm
+    100062: LeftUpperEyeLid
+    100064: LocatorWeapon
+    100066: //RootNode
+    100068: MooseMesh
+    100070: Nose
+    100072: RightArm
+    100074: RightCalf
+    100076: RightCheeck
+    100078: RightEar1
+    100080: RightEar2
+    100082: RightEye
+    100084: RightFoot
+    100086: RightHand
+    100088: RightIndex1
+    100090: RightIndex2
+    100092: RightIndex3
+    100094: RightIndexEND
+    100096: RightLeg
+    100098: RightLowerEyeLid
+    100100: RightMiddle1
+    100102: RightMiddle2
+    100104: RightMiddle3
+    100106: RightMiddleEND
+    100108: RightMouth
+    100110: RightPinky1
+    100112: RightPinky2
+    100114: RightPinky3
+    100116: RightPinkyEND
+    100118: RightShoulder
+    100120: RightThumb1
+    100122: RightThumb2
+    100124: RightThumb3
+    100126: RightThumbEND
+    100128: RightToes
+    100130: RightUpperArm
+    100132: RightUpperEyeLid
+    100134: Root
+    100136: Spine1
+    100138: Spine2
+    100140: UpMouth
+    400000: Chin
+    400002: DownMouth
+    400004: Hat
+    400006: Head
+    400008: Hips
+    400010: LeftArm
+    400012: LeftCalf
+    400014: LeftCheeck
+    400016: LeftEar1
+    400018: LeftEar2
+    400020: LeftEye
+    400022: LeftFoot
+    400024: LeftHand
+    400026: LeftIndex1
+    400028: LeftIndex2
+    400030: LeftIndex3
+    400032: LeftLeg
+    400034: LeftLowerEyeLid
+    400036: LeftMiddle1
+    400038: LeftMiddle2
+    400040: LeftMiddle3
+    400042: LeftMouth
+    400044: LeftPinky1
+    400046: LeftPinky2
+    400048: LeftPinky3
+    400050: LeftShoulder
+    400052: LeftThumb1
+    400054: LeftThumb2
+    400056: LeftThumb3
+    400058: LeftToes
+    400060: LeftUpperArm
+    400062: LeftUpperEyeLid
+    400064: LocatorWeapon
+    400066: //RootNode
+    400068: MooseMesh
+    400070: Nose
+    400072: RightArm
+    400074: RightCalf
+    400076: RightCheeck
+    400078: RightEar1
+    400080: RightEar2
+    400082: RightEye
+    400084: RightFoot
+    400086: RightHand
+    400088: RightIndex1
+    400090: RightIndex2
+    400092: RightIndex3
+    400094: RightIndexEND
+    400096: RightLeg
+    400098: RightLowerEyeLid
+    400100: RightMiddle1
+    400102: RightMiddle2
+    400104: RightMiddle3
+    400106: RightMiddleEND
+    400108: RightMouth
+    400110: RightPinky1
+    400112: RightPinky2
+    400114: RightPinky3
+    400116: RightPinkyEND
+    400118: RightShoulder
+    400120: RightThumb1
+    400122: RightThumb2
+    400124: RightThumb3
+    400126: RightThumbEND
+    400128: RightToes
+    400130: RightUpperArm
+    400132: RightUpperEyeLid
+    400134: Root
+    400136: Spine1
+    400138: Spine2
+    400140: UpMouth
+    4300000: MooseMesh
+    9500000: //RootNode
+    13700000: MooseMesh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Moose
+    second: {fileID: 2100000, guid: ae885af43698f344b8b3e2f40d824378, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
