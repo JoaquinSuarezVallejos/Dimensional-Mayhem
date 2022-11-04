@@ -331,7 +331,7 @@ Transform:
   m_GameObject: {fileID: 880767284533434094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.98, y: 0.3, z: 3.77}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 8917717509490941130}
   - {fileID: 3675899451574834993}
@@ -648,7 +648,7 @@ MonoBehaviour:
   - AnimationSpeed: 1
     AnimationClip: {fileID: 7400000, guid: e84b396df3a159d4a8163e3c3b64ef72, type: 2}
   AttackAnimationList:
-  - AnimationSpeed: 1
+  - AnimationSpeed: 3
     AnimationClip: {fileID: 7400000, guid: 2f7e9ce532212c142af0673a7ca55844, type: 2}
   RunAttackAnimationList:
   - AnimationSpeed: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   RangedDeath5Animation: {fileID: 0}
   RangedDeath6Animation: {fileID: 0}
   AnimatorControllerGenerated: 1
-  AnimationListsChanged: 0
+  AnimationListsChanged: 1
   FilePath: Assets/Enemy/New OverrideController.overrideController
   EmeraldTag: Respawn
   UITag: EmeraldPlayer
@@ -807,9 +807,9 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 7
-  TabNumber: 1
+  TabNumber: 2
   TemperamentTabNumber: 0
-  DetectionTagsTabNumber: 2
+  DetectionTagsTabNumber: 1
   AnimationTabNumber: 2
   SoundTabNumber: 0
   MovementTabNumber: 1
@@ -820,7 +820,7 @@ MonoBehaviour:
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
   CombatTabNumber: 0
-  FactionsAndTagTabNumber: 1
+  FactionsAndTagTabNumber: 0
   EventTabNumber: 0
   MinimumWaitTime: 3
   MaximumWaitTime: 6

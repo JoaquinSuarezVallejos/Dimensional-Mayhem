@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 2084376300362021161}
   - component: {fileID: 2084376300362021158}
   - component: {fileID: 2084376300362021169}
+  - component: {fileID: 2042785172}
   m_Layer: 11
   m_Name: LaCreatura
   m_TagString: Respawn
@@ -530,7 +531,7 @@ Transform:
   m_GameObject: {fileID: 2084376300362021159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.938447, y: 1.33, z: 0.9874836}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 7716413070063022851}
   - {fileID: 8094755046256497287}
@@ -609,7 +610,7 @@ MonoBehaviour:
   RotateTowardsTarget: 0
   m_AttackAnimationClipMissing: 0
   ProjectileCollisionPointY: 0
-  m_ProjectileCollisionPoint: {x: -5.938447, y: 1.33, z: 0.9874836}
+  m_ProjectileCollisionPoint: {x: 2.98, y: 2.77, z: 120.59}
   ObstructionTimer: 0
   ObstructionSeconds: 4
   IdleVolume: 1
@@ -1005,13 +1006,13 @@ MonoBehaviour:
   ObstructionDetectionUpdateSeconds: 0.1
   ObstructionDetectionUpdateTimer: 0
   CurrentHealth: 0
-  StartingHealth: 30
+  StartingHealth: 20
   DetectionRadius: 18
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 7
-  TabNumber: 1
-  TemperamentTabNumber: 0
+  TabNumber: 2
+  TemperamentTabNumber: 1
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 2
   SoundTabNumber: 0
@@ -1022,7 +1023,7 @@ MonoBehaviour:
   AttackAnimationNumber: 1
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
-  CombatTabNumber: 0
+  CombatTabNumber: 1
   FactionsAndTagTabNumber: 1
   EventTabNumber: 0
   MinimumWaitTime: 3
@@ -1042,8 +1043,8 @@ MonoBehaviour:
   CritMultiplier: 2
   UseCriticalHits: 0
   WalkBackwardsSpeed: 1
-  WalkSpeed: 2
-  RunSpeed: 5
+  WalkSpeed: 1.25
+  RunSpeed: 3
   ExpandedFieldOfViewAngle: 300
   fieldOfViewAngle: 180
   fieldOfViewAngleRef: 0
@@ -1054,7 +1055,7 @@ MonoBehaviour:
   TooCloseDistance: 5
   RangedTooCloseDistance: 5
   StartingAttackDistance: 4
-  AttackDistance: 25
+  AttackDistance: 30
   RangedAttackDistance: 25
   RunAttackDistance: 3
   CautiousSeconds: 8
@@ -1199,7 +1200,7 @@ MonoBehaviour:
   WeaponTypeRef: 1
   StartingWeaponTypeRef: 0
   AvoidanceQualityRef: 2
-  TargetObstructedActionRef: 0
+  TargetObstructedActionRef: 1
   RangedAttackTransform: {fileID: 4079940853255090731}
   CurrentTarget: {fileID: 0}
   CurrentFollowTarget: {fileID: 0}
@@ -1388,7 +1389,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -1567,6 +1568,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 2
+--- !u!114 &2042785172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084376300362021159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517eed1f656aa7e4ab7e079420a216f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 20
+  SpawnOnDeath: {fileID: 0}
+  ActivateGameObjectsOnDeath: []
+  DeactivateGameObjectsOnDeath: []
+  DeactivateCollidersOnDeath: []
+  DestroyOnDeath: 1
+  DropOnDeath: 1
+  DestroyDelay: 0
+  Respawn: 0
+  RespawnTime: 10
+  RemoveBulletHolesOnDeath: 1
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2162097607370068273
 GameObject:
   m_ObjectHideFlags: 0
