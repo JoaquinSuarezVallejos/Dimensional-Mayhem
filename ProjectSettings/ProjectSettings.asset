@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: PAX-Studios
   productName: Dimensional-Mayhem-VR-Game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -176,9 +176,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 543265221137692830, guid: 341fec07e77ddeb4e914bc045bc0e537, type: 2}
-  - {fileID: 4016957880801536088, guid: b6631a3724096094c8e93916f9ceb288, type: 2}
-  - {fileID: 11400000, guid: d0f04766e2492744fb7f391ac23b8655, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -198,7 +196,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.DimensionalMayhemVRGame
+    Android: com.PAXStudios.DimensionalMayhemVRGame
     Standalone: com.DefaultCompany.Dimensional-Mayhem-VR-Game
   buildNumber:
     Standalone: 0

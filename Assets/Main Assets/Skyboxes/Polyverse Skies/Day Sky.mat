@@ -154,7 +154,7 @@ Material:
     - _FogCat: 1
     - _FogFill: 0
     - _FogHeight: 0
-    - _FogSmoothness: 0
+    - _FogSmoothness: 0.01
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -169,7 +169,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SkyboxCat: 1
-    - _SkyboxOffset: 0
+    - _SkyboxOffset: 0.1
     - _SkyboxRotation: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
