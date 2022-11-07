@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Unity.Scenemanagment;
+//using Unity.Scenemanagment;
 
 public class Introduction : MonoBehaviour
 {
