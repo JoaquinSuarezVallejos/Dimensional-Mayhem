@@ -40,7 +40,7 @@ public class Introduction : MonoBehaviour
             text.text = introduction[index];
             PlayerMovement.enabled = false;
         }
-        if(index == introduction.Length - 1)
+        if (index == introduction.Length - 1)
         {
             NextBtnTxt.text = GoToTutorial;
         }
