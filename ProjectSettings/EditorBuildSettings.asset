@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Middle Age/Main menu.unity
     guid: ead9552a0a5f6574d8486e2ac225dca8
   - enabled: 1
+    path: Assets/Scenes/Middle Age/Introduction.unity
+    guid: d7551dc7f95652143b100dbcdd9353be
+  - enabled: 1
+    path: Assets/Scenes/Middle Age/Tutorial.unity
+    guid: 1f67376af2220024286df5519529c02a
+  - enabled: 1
     path: Assets/Scenes/Middle Age/World1_Level1.unity
     guid: 825a23e59535ab54089605e151e49624
   - enabled: 1

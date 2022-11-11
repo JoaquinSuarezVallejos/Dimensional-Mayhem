@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Introduction : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Introduction : MonoBehaviour
     public int index = 0;
     public bool hasFinished = false;
     InputBridge PlayerMovement;
+    SceneFader sceneFader;
+    [SerializeField] Text NextBtnTxt;
+    [SerializeField] string GoToTutorial;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +22,7 @@ public class Introduction : MonoBehaviour
         gameObject.SetActive(true);
         text.text = introduction[0];
         PlayerMovement = GameObject.Find("XR Rig Advanced").GetComponent<InputBridge>();
+        sceneFader = GameObject.Find("Fader Screen").GetComponent<SceneFader>();
     }
 
     // Update is called once per frame
@@ -35,10 +40,23 @@ public class Introduction : MonoBehaviour
             text.text = introduction[index];
             PlayerMovement.enabled = false;
         }
+        if(index == introduction.Length - 1)
+        {
+            NextBtnTxt.text = GoToTutorial;
+        }
+        if (hasFinished)
+        {
+            NextScene("Tutorial");
+        }
     }
 
     public void NextText()
     {
         index++;
+    }
+
+    public void NextScene (string SceneName)
+    {
+        sceneFader.FadeOut(SceneName);
     }
 }
