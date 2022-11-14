@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Middle Age/Test AI.unity
     guid: 42e2668d6ac2f2c429cf842b3ec1a187
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Middle Age/Main menu.unity
     guid: ead9552a0a5f6574d8486e2ac225dca8
   - enabled: 1
