@@ -11,7 +11,6 @@ public class Introduction : MonoBehaviour
     [SerializeField] Text text;
     public int index = 0;
     public bool hasFinished = false;
-    InputBridge PlayerMovement;
     SceneFader sceneFader;
     [SerializeField] Text NextBtnTxt;
     [SerializeField] string GoToTutorial;
@@ -21,7 +20,6 @@ public class Introduction : MonoBehaviour
     {
         gameObject.SetActive(true);
         text.text = introduction[0];
-        PlayerMovement = GameObject.Find("XR Rig Advanced").GetComponent<InputBridge>();
         sceneFader = GameObject.Find("Fader Screen").GetComponent<SceneFader>();
     }
 
@@ -30,7 +28,6 @@ public class Introduction : MonoBehaviour
     {
         if (index == introduction.Length)
         {
-            PlayerMovement.enabled = true;
             gameObject.SetActive(false);
             text.text = null; // or string.Empty if null doesn't work.
             hasFinished = true;
@@ -38,7 +35,6 @@ public class Introduction : MonoBehaviour
         if (index < introduction.Length)
         {
             text.text = introduction[index];
-            PlayerMovement.enabled = false;
         }
         if (index == introduction.Length - 1)
         {
