@@ -6,6 +6,12 @@ public class EnemyDeath : MonoBehaviour
 {
     bool isDead = false;
     [SerializeField] float cooldown = 2;
+    KillCounter killCounter;
+
+    private void Start()
+    {
+        killCounter = GameObject.Find("ENEMY KILLS COUNTER").GetComponent<KillCounter>();
+    }
 
     private void Update()
     {
@@ -25,6 +31,7 @@ public class EnemyDeath : MonoBehaviour
         if (cooldown <= 0)
         {
             Destroy(gameObject);
+            killCounter.AddKill();
         }
     }
 }
