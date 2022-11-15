@@ -12,7 +12,7 @@ public class KillCounter : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         if (Instance == null)
         {
-            Instance =this;
+            Instance = this;
         }
         else
         {

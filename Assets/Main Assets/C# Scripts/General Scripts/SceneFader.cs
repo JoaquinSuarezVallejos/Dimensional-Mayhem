@@ -14,6 +14,8 @@ public class SceneFader : MonoBehaviour
     EmeraldAIPlayerHealth Health;
     bool hasOcurred = false;
     string sceneName = string.Empty;
+    LevelDeath levelDeath;
+    PlayerHealth playerHealth;
 
     //Start is called before the first frame update
     void Start()
@@ -22,6 +24,8 @@ public class SceneFader : MonoBehaviour
         Health = Player.GetComponent<EmeraldAIPlayerHealth>();
         rend = GetComponent<Renderer>();
         rend.enabled = false;
+        levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
+        playerHealth = GameObject.Find("PLAYER HEALTH").GetComponent<PlayerHealth>();
     }
 
     public void FadeOut(string name)
@@ -32,6 +36,8 @@ public class SceneFader : MonoBehaviour
             Fade(0, 1);
             rend.enabled = true;
             hasOcurred = true;
+            levelDeath.GetSceneName();
+            playerHealth.GetCurrentHealth();
         }
     }
 
