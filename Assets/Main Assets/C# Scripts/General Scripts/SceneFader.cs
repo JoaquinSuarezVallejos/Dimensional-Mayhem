@@ -9,13 +9,13 @@ public class SceneFader : MonoBehaviour
 {
     public float fadeDuration;
     public Color fadeColor;
-    Renderer rend;
+    public Renderer rend;
     GameObject Player;
     EmeraldAIPlayerHealth Health;
     bool hasOcurred = false;
     string sceneName = string.Empty;
     LevelDeath levelDeath;
-    PlayerHealth playerHealth;
+    PlayerSaver playerSaver;
 
     //Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class SceneFader : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = false;
         levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
-        playerHealth = GameObject.Find("PLAYER HEALTH").GetComponent<PlayerHealth>();
+        playerSaver = GameObject.Find("PLAYER SAVER").GetComponent<PlayerSaver>();
     }
 
     public void FadeOut(string name)
@@ -37,7 +37,7 @@ public class SceneFader : MonoBehaviour
             rend.enabled = true;
             hasOcurred = true;
             levelDeath.GetSceneName();
-            playerHealth.GetCurrentHealth();
+            playerSaver.GetCurrentPlayer();
         }
     }
 
@@ -70,5 +70,9 @@ public class SceneFader : MonoBehaviour
 
         Debug.Log("Finished");
         SceneManager.LoadScene(sceneName);
+        if (sceneName == "Death")
+        {
+            (GameObject.Find("PLAYER SAVER")).SetActive(false);
+        }
     }
 }
