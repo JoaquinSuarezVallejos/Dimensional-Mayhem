@@ -211,7 +211,7 @@ SkinnedMeshRenderer:
   - {fileID: 812514149534651407, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
   - {fileID: 8820154120170838648, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
   - {fileID: -7112509592440825189, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
-  - {fileID: -8755386011628256732, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
+  - {fileID: 2100000, guid: e10e97efae9f7494db463aaf13715972, type: 2}
   - {fileID: 7598262680995398157, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
   - {fileID: -3846018093981099296, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
   - {fileID: -7606372156811384420, guid: a16095e5582840d48970ae4ca326fb3f, type: 3}
@@ -792,7 +792,7 @@ MonoBehaviour:
   RangedDeath5Animation: {fileID: 0}
   RangedDeath6Animation: {fileID: 0}
   AnimatorControllerGenerated: 1
-  AnimationListsChanged: 1
+  AnimationListsChanged: 0
   FilePath: Assets/Enemy/New OverrideController.overrideController
   EmeraldTag: Respawn
   UITag: EmeraldPlayer
@@ -808,11 +808,11 @@ MonoBehaviour:
   DamageAmountRun: 5
   WanderRadius: 7
   TabNumber: 2
-  TemperamentTabNumber: 0
+  TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
-  AnimationTabNumber: 2
+  AnimationTabNumber: 3
   SoundTabNumber: 0
-  MovementTabNumber: 1
+  MovementTabNumber: 0
   WeaponTypeTabNumber: 0
   WeaponTypeCombatTabNumber: 0
   WeaponTypeControlTabNumber: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
   CombatTabNumber: 0
-  FactionsAndTagTabNumber: 0
+  FactionsAndTagTabNumber: 1
   EventTabNumber: 0
   MinimumWaitTime: 3
   MaximumWaitTime: 6
@@ -885,7 +885,7 @@ MonoBehaviour:
   IdleCombatAnimationSpeed: 1
   RangedIdleCombatAnimationSpeed: 1
   IdleNonCombatAnimationSpeed: 1
-  Attack1AnimationSpeed: 1
+  Attack1AnimationSpeed: 3
   Attack2AnimationSpeed: 1
   Attack3AnimationSpeed: 1
   Attack4AnimationSpeed: 1
@@ -1392,7 +1392,19 @@ MonoBehaviour:
   RemoveBulletHolesOnDeath: 1
   onDamaged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDestroyed:
     m_PersistentCalls:
       m_Calls: []
