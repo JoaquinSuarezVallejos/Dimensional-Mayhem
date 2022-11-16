@@ -15,7 +15,7 @@ public class SceneFader : MonoBehaviour
     bool hasOcurred = false;
     string sceneName = string.Empty;
     LevelDeath levelDeath;
-    PlayerSaver playerSaver;
+    HealthSaver healthSaver;
 
     //Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class SceneFader : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = false;
         levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
-        playerSaver = GameObject.Find("PLAYER SAVER").GetComponent<PlayerSaver>();
+        healthSaver = GameObject.Find("HEALTH SAVER").GetComponent<HealthSaver>();
     }
 
     public void FadeOut(string name)
@@ -37,7 +37,7 @@ public class SceneFader : MonoBehaviour
             rend.enabled = true;
             hasOcurred = true;
             levelDeath.GetSceneName();
-            playerSaver.GetCurrentPlayer();
+            healthSaver.GetCurrentHealth();
         }
     }
 
@@ -70,9 +70,5 @@ public class SceneFader : MonoBehaviour
 
         Debug.Log("Finished");
         SceneManager.LoadScene(sceneName);
-        if (sceneName == "Death")
-        {
-            (GameObject.Find("PLAYER SAVER")).SetActive(false);
-        }
     }
 }
