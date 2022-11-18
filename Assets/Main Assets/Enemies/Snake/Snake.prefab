@@ -358,7 +358,7 @@ MonoBehaviour:
   MeleeAttackPickType: 1
   MeleeAttacks:
   - AttackAnimaition: 0
-    MinDamage: 10
+    MinDamage: 5
     MaxDamage: 0
     AttackOdds: 1
     AttackImpactEffect: {fileID: 1303674608091680, guid: 97be3a2801709c944bd83a6a58731607,
@@ -807,7 +807,7 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 7
-  TabNumber: 2
+  TabNumber: 1
   TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 3
