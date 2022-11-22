@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8164,6 +8164,85 @@ Transform:
   m_Father: {fileID: 131840067}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &189451223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189451226}
+  - component: {fileID: 189451225}
+  - component: {fileID: 189451224}
+  m_Layer: 5
+  m_Name: Time Elapsed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &189451224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189451223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 0ebbcec4dd8e2f040b163f10df7e8382, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &189451225
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189451223}
+  m_CullTransparentMesh: 0
+--- !u!224 &189451226
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189451223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 864132182291869870}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200.98616, y: -147.8}
+  m_SizeDelta: {x: 401.97244, y: 224.60596}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &190437891
 GameObject:
   m_ObjectHideFlags: 0
@@ -19745,6 +19824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeDuration: 2
   fadeColor: {r: 0, g: 0, b: 0, a: 0}
+  rend: {fileID: 0}
 --- !u!23 &530176199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61326,6 +61406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   killedAmount: {fileID: 1665363974}
   SceneDeathName: {fileID: 450563629}
+  timePassed: {fileID: 189451224}
 --- !u!4 &1532750828
 Transform:
   m_ObjectHideFlags: 0
@@ -85676,11 +85757,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You were killed by:
 
-
-    Tutorial dummy
-
-
-    You did 999 damage!'
+    Tutorial dummy'
 --- !u!224 &864132182291869870
 RectTransform:
   m_ObjectHideFlags: 0
@@ -85694,6 +85771,7 @@ RectTransform:
   m_Children:
   - {fileID: 1665363976}
   - {fileID: 450563631}
+  - {fileID: 189451226}
   m_Father: {fileID: 7848570514881451026}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -16,6 +16,7 @@ public class SceneFader : MonoBehaviour
     string sceneName = string.Empty;
     LevelDeath levelDeath;
     HealthSaver healthSaver;
+    TimeElapsed timeElapsed;
 
     //Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class SceneFader : MonoBehaviour
         rend.enabled = false;
         levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
         healthSaver = GameObject.Find("HEALTH SAVER").GetComponent<HealthSaver>();
+        timeElapsed = GameObject.Find("TIME ELAPSED").GetComponent<TimeElapsed>();
     }
 
     public void FadeOut(string name)
@@ -38,6 +40,7 @@ public class SceneFader : MonoBehaviour
             hasOcurred = true;
             levelDeath.GetSceneName();
             healthSaver.GetCurrentHealth();
+            timeElapsed.GetCurrentTime();
         }
     }
 

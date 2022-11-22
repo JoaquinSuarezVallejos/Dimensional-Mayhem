@@ -9,6 +9,8 @@ public class InfoManager : MonoBehaviour
     [SerializeField] Text killedAmount;
     LevelDeath levelDeath;
     [SerializeField] Text SceneDeathName;
+    TimeElapsed timeElapsed;
+    [SerializeField] Text timePassed;
 
     // Start is called before the first frame update
     void Start()
@@ -17,5 +19,7 @@ public class InfoManager : MonoBehaviour
         killedAmount.text = "You Killed " + killCounter.kills.ToString() + " enemies!";
         levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
         SceneDeathName.text = "You reached " + levelDeath.SceneName;
+        timeElapsed = GameObject.Find("TIME ELAPSED").GetComponent<TimeElapsed>();
+        timePassed.text = "Time Elapsed " + timeElapsed.currentTime;
     }
 }
