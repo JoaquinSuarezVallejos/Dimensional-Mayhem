@@ -555,7 +555,7 @@ MonoBehaviour:
   DeathEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 880767284533434082}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: EnemyDeath, Assembly-CSharp
         m_MethodName: Death
         m_Mode: 1
@@ -808,7 +808,7 @@ MonoBehaviour:
   DamageAmountRun: 5
   WanderRadius: 7
   TabNumber: 1
-  TemperamentTabNumber: 2
+  TemperamentTabNumber: 5
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 3
   SoundTabNumber: 0
@@ -821,7 +821,7 @@ MonoBehaviour:
   IdleAnimationNumber: 1
   CombatTabNumber: 0
   FactionsAndTagTabNumber: 1
-  EventTabNumber: 0
+  EventTabNumber: 1
   MinimumWaitTime: 3
   MaximumWaitTime: 6
   MinimumFollowWaitTime: 1
