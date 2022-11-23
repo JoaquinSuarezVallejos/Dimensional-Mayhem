@@ -28,8 +28,19 @@ public class TimeElapsed : MonoBehaviour
 
     public void GetCurrentTime()
     {
-        float minutes = timePassed / 60;
-        float seconds = timePassed % 60;
-        currentTime = minutes + ":" + seconds;   
+        int minutes = (int)timePassed / 60;
+        int seconds = (int)timePassed % 60;
+        if (minutes < 10 && seconds > 10)
+        {
+            currentTime = "0" + minutes + ":" + seconds;
+        }
+        if (seconds < 10 && minutes > 10)
+        {
+            currentTime = minutes + ":0" + seconds;
+        }
+        if (seconds < 10 && minutes < 10)
+        {
+            currentTime = "0" + minutes + ":0" + seconds;
+        }
     }
 }
