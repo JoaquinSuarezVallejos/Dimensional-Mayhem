@@ -17,11 +17,15 @@ namespace BNG
             if (GetComponent<EmeraldAI.LocationBasedDamageArea>() != null)
             {
                 GetComponent<EmeraldAI.LocationBasedDamageArea>().DamageArea((int)damageAmount, EmeraldAI.EmeraldAISystem.TargetType.Player, null, 400);
+                GameObject.Find("DAMAGE DONE COUNTER").GetComponent<GetDamage>().damageDone += damageAmount;
+                Debug.Log(sender + " sender");
+                Debug.Log(receiver + "receiver");
             }
             // Core Damage
             else if (GetComponent<EmeraldAI.EmeraldAISystem>() != null)
             {
                 GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damageAmount, EmeraldAI.EmeraldAISystem.TargetType.Player, null, 400);
+                GameObject.Find("DAMAGE DONE COUNTER").GetComponent<GetDamage>().damageDone += damageAmount;
             }
         }
     }

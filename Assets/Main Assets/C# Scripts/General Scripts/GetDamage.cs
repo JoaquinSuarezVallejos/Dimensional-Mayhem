@@ -5,26 +5,19 @@ using UnityEngine;
 
 public class GetDamage : MonoBehaviour
 {
-    EmeraldAIDamageable damageableScript;
-    float totalLife;
-    float damageDone;
-    float currentLife;
+    public float damageDone;
+    public static GetDamage Instance;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        damageableScript = gameObject.GetComponent<EmeraldAIDamageable>();
-        totalLife = damageableScript.Health;
-    }
-
-    void Update()
-    {
-        currentLife = damageableScript.Health;
-        Debug.Log(currentLife);
-    }
-
-    public void GetDamageDone()
-    {
-        damageDone += totalLife - currentLife;
+        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(Instance.gameObject);
+        }
     }
 }

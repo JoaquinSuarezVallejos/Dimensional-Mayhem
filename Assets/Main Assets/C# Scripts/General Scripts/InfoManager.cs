@@ -11,6 +11,11 @@ public class InfoManager : MonoBehaviour
     [SerializeField] Text SceneDeathName;
     TimeElapsed timeElapsed;
     [SerializeField] Text timePassed;
+    GetDamage getDamage;
+    [SerializeField] Text damageAmount;
+    string KillerName;
+    [SerializeField] Text killerText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +26,15 @@ public class InfoManager : MonoBehaviour
         SceneDeathName.text = "You reached " + levelDeath.SceneName;
         timeElapsed = GameObject.Find("TIME ELAPSED").GetComponent<TimeElapsed>();
         timePassed.text = "Time Elapsed " + timeElapsed.currentTime;
+        getDamage = GameObject.Find("DAMAGE DONE COUNTER").GetComponent<GetDamage>();
+        damageAmount.text = "You dealt " + getDamage.damageDone + " damage!";
+        KillerName = PlayerPrefs.GetString("KillerName");
+        killerText.text = "\n \n You were killed by: \n" + KillerName;
+    }
+
+    private void Update()
+    {
+        Debug.Log(KillerName);
+        Debug.Log("HOla");
     }
 }
