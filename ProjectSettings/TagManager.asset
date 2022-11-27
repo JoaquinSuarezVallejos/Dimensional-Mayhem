@@ -7,6 +7,7 @@ TagManager:
   - EmeraldPlayer
   - ProximityCollider
   - Spawner
+  - ItemCollider
   layers:
   - Default
   - TransparentFX

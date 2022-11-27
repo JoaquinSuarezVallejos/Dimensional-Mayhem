@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class HealthPotion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject healthPotion, healEffect;
+
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.tag == "ItemCollider")
+        {
+            healthPotion.SetActive(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerStay(Collider other)
     {
-        
+        if (other.gameObject.tag == "ItemCollider")
+        {
+            healthPotion.SetActive(false);
+            healEffect.SetActive(true);
+        }
     }
 }
