@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Main Assets/BNG Framework/Scenes/XR Demo.unity
     guid: a1360534006d3f845bc79b46b93cfec5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Middle Age/Main menu.unity
     guid: ead9552a0a5f6574d8486e2ac225dca8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Middle Age/Introduction.unity
     guid: 00863dec694ddaf43bc9cf8a45bc9c2b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Middle Age/Tutorial.unity
     guid: 1f67376af2220024286df5519529c02a
   - enabled: 1
