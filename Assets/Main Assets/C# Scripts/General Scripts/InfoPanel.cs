@@ -10,15 +10,10 @@ public class InfoPanel : MonoBehaviour
 {
     float currentHealth;
     EmeraldAIPlayerHealth healthScript;
-
     string currentTime;
     TimeElapsed timeScript;
-
     string currentLevel;
 
-    TextMeshPro panelText;
-
-    // Start is called before the first frame update
     void Start()
     {
         healthScript = GameObject.Find("PlayerController").GetComponent<EmeraldAIPlayerHealth>();
@@ -27,7 +22,6 @@ public class InfoPanel : MonoBehaviour
         //panelText = GameObject.Find("Panel Text").GetComponent<Text>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         currentHealth = healthScript.CurrentHealth;
