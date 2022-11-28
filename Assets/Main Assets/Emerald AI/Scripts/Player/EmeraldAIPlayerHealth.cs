@@ -29,6 +29,7 @@ namespace EmeraldAI.Example
 
         private void Start()
         {
+            CurrentHealth = 100;
             StartingHealth = CurrentHealth;
             Player = GameObject.Find("PlayerController");
             Loader = Player.GetComponent<MySceneLoader>();
