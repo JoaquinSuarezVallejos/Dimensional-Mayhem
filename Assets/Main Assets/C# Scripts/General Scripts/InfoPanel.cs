@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class InfoPanel : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class InfoPanel : MonoBehaviour
 
     string currentLevel;
 
-    Text panelText;
+    TextMeshPro panelText;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +24,16 @@ public class InfoPanel : MonoBehaviour
         healthScript = GameObject.Find("PlayerController").GetComponent<EmeraldAIPlayerHealth>();
         timeScript = GameObject.Find("TIME ELAPSED").GetComponent<TimeElapsed>();
         currentLevel = SceneManager.GetActiveScene().name;
-        panelText = GameObject.Find("Panel Text").GetComponent<Text>();
+        //panelText = GameObject.Find("Panel Text").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
         currentHealth = healthScript.CurrentHealth;
+        timeScript.GetCurrentTime();
         currentTime = timeScript.currentTime;
-        panelText.text = "Health: " + currentHealth.ToString() + "\n" + "Time elapsed: " + currentTime + "\n" + currentLevel;
-
+        //panelText.text = "Health: " + currentHealth.ToString() + "\n" + "Time elapsed: " + currentTime + "\n" + currentLevel;
+        Debug.Log("Health: " + currentHealth.ToString() + "\n" + "Time elapsed: " + currentTime + "\n" + currentLevel);
     }
 }
