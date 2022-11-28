@@ -90977,7 +90977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5267674660805580755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.879059, y: 5.92, z: -24.662945}
+  m_LocalPosition: {x: -4.879059, y: 5.91, z: -24.662945}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 4531060822448741879}
@@ -91363,7 +91363,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 1.97
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!65 &5267674660805580762
@@ -91377,8 +91377,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5944356, y: 7.2510915, z: 2.4333704}
-  m_Center: {x: 0, y: 1.5659926, z: 0}
+  m_Size: {x: 1.5944356, y: 7.165095, z: 2.4333704}
+  m_Center: {x: 0, y: 1.6089909, z: 0}
 --- !u!95 &5267674660805580763
 Animator:
   serializedVersion: 3
@@ -91706,7 +91706,7 @@ MonoBehaviour:
   - AnimationSpeed: 1
     AnimationClip: {fileID: 7400000, guid: 66490b8234691ba43a56e14aab190fd9, type: 2}
   AttackAnimationList:
-  - AnimationSpeed: 3
+  - AnimationSpeed: 1.5
     AnimationClip: {fileID: 7400000, guid: 24e92feabacdb214db098f4f50c3dbe7, type: 2}
   RunAttackAnimationList:
   - AnimationSpeed: 0
@@ -91865,8 +91865,8 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 7
-  TabNumber: 2
-  TemperamentTabNumber: 5
+  TabNumber: 1
+  TemperamentTabNumber: 0
   DetectionTagsTabNumber: 2
   AnimationTabNumber: 2
   SoundTabNumber: 1
@@ -91926,7 +91926,7 @@ MonoBehaviour:
   DistanceOffset: 1
   DistanceFromTarget: 0
   AgentRadius: 0.5
-  AgentBaseOffset: 0
+  AgentBaseOffset: 1.97
   AgentTurnSpeed: 2000
   AgentAcceleration: 75
   MaxXAngle: 15
@@ -91943,7 +91943,7 @@ MonoBehaviour:
   IdleCombatAnimationSpeed: 1
   RangedIdleCombatAnimationSpeed: 1
   IdleNonCombatAnimationSpeed: 1
-  Attack1AnimationSpeed: 3
+  Attack1AnimationSpeed: 1.5
   Attack2AnimationSpeed: 1
   Attack3AnimationSpeed: 1
   Attack4AnimationSpeed: 1
@@ -92125,7 +92125,7 @@ MonoBehaviour:
   HealthBarCanvas: {fileID: 0}
   HealthBarImage: {fileID: 0}
   HealthBarBackgroundImage: {fileID: 0}
-  HealthBarPos: {x: 0, y: 0.7, z: 0}
+  HealthBarPos: {x: 0, y: 1.4, z: 0}
   CombatTextPos: {x: 0, y: 1.75, z: 0}
   HealthBarColor: {r: 0.77254903, g: 0.16078432, b: 0.16078432, a: 1}
   HealthBarBackgroundColor: {r: 0.14117648, g: 0.14117648, b: 0.14117648, a: 1}
@@ -92135,7 +92135,7 @@ MonoBehaviour:
   NameTextFontSize: 10
   WaypointParent: {fileID: 0}
   WaypointOrigin: 
-  AINamePos: {x: 0, y: 1.5, z: 0}
+  AINamePos: {x: 0, y: 2.2, z: 0}
   AILevelPos: {x: 1.5, y: 0, z: 0}
   IsTurning: 0
   FirstTimeInCombat: 1
