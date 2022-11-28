@@ -42,7 +42,7 @@ public class Introduction : MonoBehaviour
         }
         if (hasFinished)
         {
-            NextScene("Tutorial");
+            NextScene("Ancient Dungeon");
         }
     }
 
