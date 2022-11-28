@@ -18,14 +18,8 @@ using EmeraldAI.Example;
             }
         }
 
-        /*public void GetCurrentHealth()
-        {
-            currentPlayerHealth = GameObject.Find("PlayerController").GetComponent<EmeraldAIPlayerHealth>().CurrentHealth;
-        }*/
-
         public void AddHealth()
         {
-            //currentPlayerHealth += 30;
             GameObject.Find("PlayerController").GetComponent<EmeraldAIPlayerHealth>().CurrentHealth += healAmount;
         }
     }
