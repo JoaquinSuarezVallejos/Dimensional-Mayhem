@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoorSlamClose : MonoBehaviour
 {
     public GameObject WoodenDoorSlam, TriggerDoorPlate2, TriggerDoorPlate3, TriggerDoorPlate4, DoorBlockBarrierTrigger;
+    public AudioSource doorSlam;
 
     void OnTriggerEnter(Collider other)
     {
@@ -16,6 +17,7 @@ public class DoorSlamClose : MonoBehaviour
             DoorBlockBarrierTrigger.SetActive(true);
 
             WoodenDoorSlam.GetComponent<Animator>().Play("DoorSlamClose");
+            doorSlam.Play();
         }
     }
 }

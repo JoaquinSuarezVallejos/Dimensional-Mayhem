@@ -7,6 +7,7 @@ using EmeraldAI.Example;
     {
         public GameObject healthPotion, healEffect;
         public int currentPlayerHealth, healAmount;
+        public AudioSource healSoundEffect;
 
         void OnTriggerEnter(Collider other)
         {
@@ -15,6 +16,7 @@ using EmeraldAI.Example;
                 healthPotion.SetActive(false);
                 healEffect.SetActive(true);
                 AddHealth();
+                healSoundEffect.Play();
             }
         }
 
