@@ -12,7 +12,6 @@ public class DoorSlamOpen : MonoBehaviour
         {
             TriggerDoorPlate1.SetActive(false);
 
-            // Play DoorSlamOpen Animation
             WoodenDoorSlam.GetComponent<Animator>().Play("DoorSlamOpen");
         }
     }

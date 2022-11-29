@@ -7,7 +7,7 @@ using EmeraldAI.Example;
 public class HealthDisplay : MonoBehaviour
 {
     int currentHealth;
-    int maxPlayerHealth = 160;
+    public int maxPlayerHealth = 180;
     public GameObject textMeshPro_HealthText, textMeshPro_HealthSprite;
     EmeraldAIPlayerHealth healthScript;
     TextMeshProUGUI HealthDisplayText, HealthSprite;
