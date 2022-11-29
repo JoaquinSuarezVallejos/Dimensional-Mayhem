@@ -2,29 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InfoManager : MonoBehaviour
 {
     KillCounter killCounter;
-    [SerializeField] Text killedAmount;
+    //[SerializeField] Text killedAmount;
     LevelDeath levelDeath;
-    [SerializeField] Text SceneDeathName;
+    //[SerializeField] Text SceneDeathName;
     TimeElapsed timeElapsed;
-    [SerializeField] Text timePassed;
+    //[SerializeField] Text timePassed;
     GetDamage getDamage;
-    [SerializeField] Text damageAmount;
+    //[SerializeField] Text damageAmount;
+    TextMeshProUGUI killedAmountText, SceneDeathNameText, timePassedText, damageAmountText;
+    public GameObject TMPro_killedAmount, TMPro_SceneDeathName, TMPro_timePassed, TMPro_damageAmount;
 
-
-    // Start is called before the first frame update
     void Start()
     {
+        killedAmountText = TMPro_killedAmount.GetComponent<TextMeshProUGUI>();
+        SceneDeathNameText = TMPro_SceneDeathName.GetComponent<TextMeshProUGUI>();
+        timePassedText = TMPro_timePassed.GetComponent<TextMeshProUGUI>();
+        damageAmountText = TMPro_damageAmount.GetComponent<TextMeshProUGUI>();
+
         killCounter = GameObject.Find("ENEMY KILLS COUNTER").GetComponent<KillCounter>();
-        killedAmount.text = "You Killed " + killCounter.kills.ToString() + " enemies!";
+        killedAmountText.text = "Enemies killed: " + killCounter.kills.ToString();
         levelDeath = GameObject.Find("LEVEL DEATH INFO").GetComponent<LevelDeath>();
-        SceneDeathName.text = "You reached " + levelDeath.SceneName;
+        SceneDeathNameText.text = "Level reached: " + levelDeath.SceneName;
         timeElapsed = GameObject.Find("TIME ELAPSED").GetComponent<TimeElapsed>();
-        timePassed.text = "Time Elapsed " + timeElapsed.currentTime;
+        timePassedText.text = "Time elapsed: " + timeElapsed.currentTime;
         getDamage = GameObject.Find("DAMAGE DONE COUNTER").GetComponent<GetDamage>();
-        damageAmount.text = "You dealt " + getDamage.damageDone + " damage!";
+        damageAmountText.text = "Damage dealt: " + getDamage.damageDone;
     }
 }
