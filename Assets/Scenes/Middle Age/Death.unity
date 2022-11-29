@@ -61487,7 +61487,6 @@ MonoBehaviour:
   SceneDeathName: {fileID: 450563629}
   timePassed: {fileID: 189451224}
   damageAmount: {fileID: 501531486}
-  killerText: {fileID: 0}
 --- !u!4 &1532750828
 Transform:
   m_ObjectHideFlags: 0
