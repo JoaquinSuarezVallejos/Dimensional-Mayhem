@@ -8,6 +8,7 @@ TagManager:
   - ProximityCollider
   - Spawner
   - ItemCollider
+  - FloorProximity
   layers:
   - Default
   - TransparentFX
