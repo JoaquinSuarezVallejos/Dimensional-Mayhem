@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -37,14 +38,14 @@ MonoBehaviour:
   DamageOvertimeTimeout: 3
   AbilityIcon: {fileID: 0}
   AbilityEffect: {fileID: 1376461332694426, guid: b8f46d298e69159488a6d5a442294fe1,
-    type: 2}
+    type: 3}
   CastEffect: {fileID: 0}
   SummonEffect: {fileID: 0}
   SummonObject: {fileID: 0}
   DamageOverTimeEffect: {fileID: 0}
   DamageOverTimeSound: {fileID: 0}
   CollisionEffect: {fileID: 1303674608091680, guid: 9fe31a225d3e06c418532624df7b6c5b,
-    type: 2}
+    type: 3}
   ImpactSound: {fileID: 8300000, guid: ea9bc83b5650a1c449f196dbc7645090, type: 3}
   SummonSound: {fileID: 0}
   CastSound: {fileID: 8300000, guid: 8d56992d14b90614c859b1e3865822e7, type: 3}
@@ -70,4 +71,4 @@ MonoBehaviour:
   UseCustomAbilityIcon: 0
   UseCastEffect: 0
   ArrowProjectileRef: 0
-  AbilityEditorTabs: 1
+  AbilityEditorTabs: 2
