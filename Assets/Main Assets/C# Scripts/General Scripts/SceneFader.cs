@@ -51,6 +51,13 @@ public class SceneFader : MonoBehaviour
         StartCoroutine(FadeRoutine(alphaIn, alphaOut));
     }
 
+    public void ExitFadeOut()
+    {
+        rend.enabled = true;
+        StartCoroutine(FadeRoutineExitGame(0, 1));
+    }
+
+
     public IEnumerator FadeRoutine(float alphaIn, float alphaOut)
     {
         rend.enabled = true;
@@ -73,5 +80,28 @@ public class SceneFader : MonoBehaviour
 
         Debug.Log("Finished");
         SceneManager.LoadScene(sceneName);
+    }
+
+    public IEnumerator FadeRoutineExitGame(float alphaIn, float alphaOut)
+    {
+        rend.enabled = true;
+        float timer = 0;
+        while (timer <= fadeDuration)
+        {
+            Color newColor = fadeColor;
+            newColor.a = Mathf.Lerp(alphaIn, alphaOut, timer / fadeDuration);
+
+            rend.material.SetColor("_BaseColor", newColor);
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        Color new_Color = fadeColor;
+        new_Color.a = alphaOut;
+
+        rend.material.SetColor("_BaseColor", new_Color);
+
+        Application.Quit();
     }
 }
