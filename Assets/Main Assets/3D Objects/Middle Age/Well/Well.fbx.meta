@@ -3,7 +3,37 @@ guid: cd3f7163f5184dc4eb554b871427395b
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 43f90bea0f55ab447993eee3f97aca66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 3542d185f1cae814896960e448348e04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: d08d16ae482b25049a5e920e52a6ef15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: agua
+    second: {fileID: 2100000, guid: becfe45f29c8dce4e8ee9e984fb6d7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: madera
+    second: {fileID: 2100000, guid: aa2036e78b414c9408f06597639ef8c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piedra
+    second: {fileID: 2100000, guid: 9dc47820da7e94a4ca34e370bcb84244, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
