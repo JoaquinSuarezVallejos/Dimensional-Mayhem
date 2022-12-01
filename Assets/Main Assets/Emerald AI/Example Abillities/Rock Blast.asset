@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityName: Rock Blast
   AbilityDescription: Launches a rock towards a target dealing 10 pts of damage.
-  AbilityDamage: 10
+  AbilityDamage: 3
   AbilityDamagePerIncrement: 5
   CriticalHitOdds: 6.25
   CriticalHitMultiplierMin: 1.1
@@ -27,7 +27,7 @@ MonoBehaviour:
   SummonRadius: 10
   ProjectileSpeed: 30
   ProjectileTimeoutSeconds: 6
-  ColliderRadius: 0.25
+  ColliderRadius: 0.15
   TimeoutTime: 4.5
   CollisionTime: 0
   HeatSeekingSeconds: 5
@@ -71,4 +71,4 @@ MonoBehaviour:
   UseCustomAbilityIcon: 0
   UseCastEffect: 0
   ArrowProjectileRef: 0
-  AbilityEditorTabs: 2
+  AbilityEditorTabs: 1
