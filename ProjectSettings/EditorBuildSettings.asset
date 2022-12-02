@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Middle Age/Main Menu.unity
+    path: Assets/Scenes/UI Scenes/Main Menu.unity
     guid: 854b27422dda5e742a853aa616bc5c40
   - enabled: 1
-    path: Assets/Scenes/Middle Age/Introduction.unity
+    path: Assets/Scenes/UI Scenes/Introduction.unity
     guid: 00863dec694ddaf43bc9cf8a45bc9c2b
   - enabled: 1
     path: Assets/Scenes/Middle Age/Ancient Dungeon.unity
@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Middle Age/The Village.unity
     guid: fcbd4aea49e462d45adb77231ffe216b
   - enabled: 1
-    path: Assets/Scenes/Middle Age/End Scene.unity
+    path: Assets/Scenes/UI Scenes/End Scene.unity
     guid: 962587f2bd99eb64399a72460d6e031f
   - enabled: 1
-    path: Assets/Scenes/Middle Age/Death.unity
+    path: Assets/Scenes/UI Scenes/Death.unity
     guid: 5cc2021972fea83459202eb46865cf40
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d0f04766e2492744fb7f391ac23b8655,
