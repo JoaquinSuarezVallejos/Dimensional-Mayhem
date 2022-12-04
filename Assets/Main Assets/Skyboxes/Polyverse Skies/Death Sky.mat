@@ -152,7 +152,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _PatternCat: 1
-    - _PatternContrast: 0.15
+    - _PatternContrast: 0.25
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SkyboxCat: 1
