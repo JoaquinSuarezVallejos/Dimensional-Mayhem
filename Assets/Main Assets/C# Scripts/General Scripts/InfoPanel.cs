@@ -14,6 +14,7 @@ public class InfoPanel : MonoBehaviour
     GameObject[] enemiesArray;
     KillCounter playerKills;
     #endregion
+    
     #region Info
     float currentHealth;
     string currentTime;

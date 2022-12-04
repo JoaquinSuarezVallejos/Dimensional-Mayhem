@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TimeMachineButtonDown : MonoBehaviour
 {
-    public GameObject electricityEffect, finalBoss, wallFinalBoss1, wallFinalBoss2;
+    public GameObject electricityEffect, finalBoss, wallFinalBoss1, wallFinalBoss2, missionCanvas;
     public AudioSource finalBossMusic, theVillageMusic;
 
     public void buttonPressed()
@@ -15,6 +15,7 @@ public class TimeMachineButtonDown : MonoBehaviour
         wallFinalBoss2.SetActive(true);
         theVillageMusic.Stop();
         finalBossMusic.Play();
+        missionCanvas.SetActive(false);
     }
 
 }

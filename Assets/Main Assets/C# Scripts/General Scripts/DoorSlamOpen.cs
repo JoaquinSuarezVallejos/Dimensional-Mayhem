@@ -6,6 +6,12 @@ public class DoorSlamOpen : MonoBehaviour
 {
     public GameObject TriggerDoorPlate1, WoodenDoorSlam, WyvernsDoorSlamSet, HydrasDoorSlamSet;
     public AudioSource doorOpen;
+    public static bool checkActiveMission;
+
+    void Start()
+    {
+        checkActiveMission = false;
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -17,6 +23,7 @@ public class DoorSlamOpen : MonoBehaviour
 
             WoodenDoorSlam.GetComponent<Animator>().Play("DoorSlamOpen");
             doorOpen.Play();
+            checkActiveMission = true;
         }
     }
 }
