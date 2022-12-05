@@ -23,7 +23,7 @@ public class ActiveMission : MonoBehaviour
         totalEnemies = enemiesArray.Length;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         extraEnemiesLeft = 6;
         enemiesLeft = totalEnemies - playerKills.kills + extraEnemiesLeft; 
