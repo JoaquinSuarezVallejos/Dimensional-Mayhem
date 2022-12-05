@@ -17,6 +17,61 @@ ModelImporter:
     second: Death
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 424b351c74f8c2c4fab07fda2d7979d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabeza
+    second: {fileID: 2100000, guid: 69c954ddf8129fc48905960065a27c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color de ojos
+    second: {fileID: 2100000, guid: 44c74c3febc5c924e94ab8364f0a863b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color de ojos.001
+    second: {fileID: 2100000, guid: 53b568a279f860f49996c1cb0ed16c7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dientes
+    second: {fileID: 2100000, guid: ab7ec93dd21ab1b4dbadd4c68b95c099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: garras
+    second: {fileID: 2100000, guid: 20d07d6a449a7004d9168a019798021b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material de ojos 2
+    second: {fileID: 2100000, guid: aaeb62d8392811d41a4ad4ed950774ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material de ojos 2.001
+    second: {fileID: 2100000, guid: 6ce889876f72cb24b84b0e69b3ad63a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plumas chicas
+    second: {fileID: 2100000, guid: 4103b9a4ee2ee1d4dbd8cc06eb5625f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plumas grandes
+    second: {fileID: 2100000, guid: 1bcbb84c47b117d468c9d4bcaab867eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plumas grandes.001
+    second: {fileID: 2100000, guid: cc152dc1a37507a409d4ec23cfa73349, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: textua de la creatura
