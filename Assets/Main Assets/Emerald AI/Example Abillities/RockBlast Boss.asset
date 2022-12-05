@@ -25,7 +25,7 @@ MonoBehaviour:
   AbilityCooldown: 10
   AbilityLength: 3
   SummonRadius: 10
-  ProjectileSpeed: 30
+  ProjectileSpeed: 40
   ProjectileTimeoutSeconds: 6
   ColliderRadius: 0.15
   TimeoutTime: 4.5
@@ -71,4 +71,4 @@ MonoBehaviour:
   UseCustomAbilityIcon: 0
   UseCastEffect: 0
   ArrowProjectileRef: 0
-  AbilityEditorTabs: 1
+  AbilityEditorTabs: 0
