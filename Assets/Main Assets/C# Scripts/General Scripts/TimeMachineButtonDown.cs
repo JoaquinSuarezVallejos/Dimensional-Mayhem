@@ -5,7 +5,7 @@ using UnityEngine;
 public class TimeMachineButtonDown : MonoBehaviour
 {   
     public GameObject timeMachine, electricityEffect, finalBoss, bossSpawnEffect, wallFinalBoss1, wallFinalBoss2, missionCanvas, flames, initializeTxt, errorTxt;
-    public AudioSource spawnBossEffect, finalBossMusic, theVillageMusic;
+    public AudioSource spawnBossEffect, timeMachineError, finalBossMusic, theVillageMusic;
 
     public void buttonPressed()
     {
@@ -15,6 +15,7 @@ public class TimeMachineButtonDown : MonoBehaviour
         StartCoroutine("errorTxtBlink1");
         timeMachine.GetComponent<Animator>().Play("TimeMachineError");
         spawnBossEffect.Play();
+        timeMachineError.Play();
 
         finalBoss.SetActive(true); 
         bossSpawnEffect.SetActive(true);

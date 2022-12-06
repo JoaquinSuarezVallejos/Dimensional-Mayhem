@@ -5,7 +5,6 @@ using UnityEngine;
 public class TimeMachineSpawn : MonoBehaviour
 {
     public GameObject timeMachine, TMSpawnEffect;
-    public AudioSource spawnBossEffect;
 
     void Update()
     {
@@ -13,7 +12,6 @@ public class TimeMachineSpawn : MonoBehaviour
         {
             timeMachine.SetActive(true);
             TMSpawnEffect.SetActive(true);
-            spawnBossEffect.Play();
         }
     }
 }
