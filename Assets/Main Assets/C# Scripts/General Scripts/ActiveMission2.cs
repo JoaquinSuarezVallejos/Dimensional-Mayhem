@@ -24,7 +24,7 @@ public class ActiveMission2 : MonoBehaviour
 
     void Update()
     {
-        enemiesLeft2 = totalEnemies2 - playerKills2.kills + 20; 
+        enemiesLeft2 = totalEnemies2 - playerKills2.kills + 14; 
 
         if (enemiesLeft2 == 0)
         {

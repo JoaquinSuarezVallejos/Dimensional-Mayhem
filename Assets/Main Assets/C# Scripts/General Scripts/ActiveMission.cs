@@ -25,7 +25,7 @@ public class ActiveMission : MonoBehaviour
 
     void Update()
     {
-        extraEnemiesLeft = 6;
+        extraEnemiesLeft = 4;
         enemiesLeft = totalEnemies - playerKills.kills + extraEnemiesLeft; 
 
         if (enemiesLeft == 0)
