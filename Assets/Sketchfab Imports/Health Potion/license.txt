@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pocion new
+* source:	https://sketchfab.com/3d-models/pocion-new-2d2a8954b041444da65d8ef128b9350f
+* author:	deixyroses (https://sketchfab.com/deixyroses)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pocion new" (https://sketchfab.com/3d-models/pocion-new-2d2a8954b041444da65d8ef128b9350f) by deixyroses (https://sketchfab.com/deixyroses) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
