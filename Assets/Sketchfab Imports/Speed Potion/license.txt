@@ -1,0 +1,11 @@
+Model Information:
+* title:	Poción
+* source:	https://sketchfab.com/3d-models/pocion-0f235bc106a043b2bfadd3f6d955415f
+* author:	Carlos_SR (https://sketchfab.com/CarlosSR)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Poción" (https://sketchfab.com/3d-models/pocion-0f235bc106a043b2bfadd3f6d955415f) by Carlos_SR (https://sketchfab.com/CarlosSR) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
