@@ -6,28 +6,32 @@ using EmeraldAI.Example;
 public class SpeedPotion : MonoBehaviour
 {
     public GameObject speedLiquid, speedBoostEffect;
-    public int currentPlayerSpeed, speedAmount;
     public AudioSource speedSoundEffect;
-    bool potionConsumed = false;
+    public static bool speedEffectActive = false;
 
     void OnTriggerEnter(Collider other)
     {
-        if (potionConsumed == false)
+        if (speedEffectActive == false)
         {
             if (other.gameObject.tag == "ItemCollider")
             {
-                speedLiquid.SetActive(false);
-                speedBoostEffect.SetActive(true);
-                AddHealth();
-                speedSoundEffect.Play();
-                potionConsumed = true;
+                AddSpeed();
             }
         }
     }
 
-    public void AddHealth()
+    void AddSpeed()
     {
-        GameObject.Find("PlayerController").GetComponent<EmeraldAIPlayerHealth>().CurrentHealth += speedAmount;
+        speedLiquid.SetActive(false);
+        speedBoostEffect.SetActive(true);
+        speedSoundEffect.Play();
+        speedEffectActive = true;
+        StartCoroutine(SpeedEffectTime());
     }
-    
+
+    IEnumerator SpeedEffectTime()
+    {
+        yield return new WaitForSeconds(30);
+        speedEffectActive = false;
+    }
 }

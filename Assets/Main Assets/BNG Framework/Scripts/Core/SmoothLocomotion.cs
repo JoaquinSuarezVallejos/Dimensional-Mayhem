@@ -11,7 +11,8 @@ namespace BNG {
         Controller
     }    
 
-    public class SmoothLocomotion : MonoBehaviour {
+    public class SmoothLocomotion : MonoBehaviour 
+    {
 
         public PlayerControllerType ControllerType = PlayerControllerType.CharacterController;
 
@@ -129,12 +130,26 @@ namespace BNG {
         public static event OnAfterMoveAction OnAfterMove;
         #endregion
 
-        public virtual void Update() {
+        public virtual void Update() 
+        {
             CheckControllerReferences();
             UpdateInputs();
 
-            if(UpdateMovement) {
+            if (UpdateMovement) 
+            {
                 MoveCharacter();
+            }
+
+            if (SpeedPotion.speedEffectActive == true)
+            {
+                MovementSpeed = 5;
+                SprintSpeed = 7;
+            }
+
+            if (SpeedPotion.speedEffectActive == false)
+            {
+                MovementSpeed = 3;
+                SprintSpeed = 5;
             }
         }
 
@@ -571,7 +586,8 @@ namespace BNG {
         //    }
         //}
         
-        void OnCollisionStay(Collision collisionInfo) {
+        void OnCollisionStay(Collision collisionInfo) 
+        {
             if (ControllerType == PlayerControllerType.Rigidbody) {
                 //= collisionInfo.contacts.Length;
 

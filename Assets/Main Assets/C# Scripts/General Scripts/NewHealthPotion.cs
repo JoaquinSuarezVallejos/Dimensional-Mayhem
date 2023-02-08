@@ -6,7 +6,7 @@ using EmeraldAI.Example;
     public class NewHealthPotion : MonoBehaviour
     {
         public GameObject healthLiquid, healEffect;
-        public int currentPlayerHealth, healAmount;
+        public int healAmount;
         public AudioSource healSoundEffect;
         bool potionConsumed = false;
 
