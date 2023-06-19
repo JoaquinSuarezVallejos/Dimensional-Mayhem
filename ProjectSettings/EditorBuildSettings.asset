@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Middle Age/New Dungeon.unity
     guid: e942f733e8b0c50488b49a2051995007
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Middle Age/The Village.unity
     guid: fcbd4aea49e462d45adb77231ffe216b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI Scenes/End Scene.unity
     guid: 962587f2bd99eb64399a72460d6e031f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI Scenes/Death.unity
     guid: 5cc2021972fea83459202eb46865cf40
   m_configObjects:
